@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <com.example.qi.uiproject.view.PathMeasureView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStartAnimationActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startAnimationActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnStartMaterialActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startMaterialActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnStartMyAttrsActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startMyAttrsActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPathMeasureActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startPathMeasureActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnQuadToActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startQuadToActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCubicActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startCubicActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnGiftActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startGiftActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnNestedLinearLayoutActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startNestedLinearLayoutActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSplashActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startSplashActivity"
+            android:textAllCaps="false" />
+
+<Button
+            android:id="@+id/btnVLayoutActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="startVLayoutActivity"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

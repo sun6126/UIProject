@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyAttrs">
+        <attr name="my_age" format="integer"/>
+        <attr name="my_name" format="string"/>
+        <attr name="my_bg" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="NestedLinearLayout">
+        <attr name="layout_behavior" format="string"/>
+    </declare-styleable>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
