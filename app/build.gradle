@@ -44,5 +44,7 @@ dependencies {
     }
     // banner
     implementation 'com.youth.banner:banner:1.4.9'
+    // 圆形图片
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
 
 }

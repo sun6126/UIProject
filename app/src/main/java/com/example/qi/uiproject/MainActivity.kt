@@ -60,5 +60,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(MainActivity@ this, MapActivity::class.java))
         }
 
+        btnDouYinActivity.setOnClickListener {
+            startActivity(Intent(MainActivity@ this, DouYinActivity::class.java))
+        }
+
     }
 }

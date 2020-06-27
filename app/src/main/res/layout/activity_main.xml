@@ -92,6 +92,13 @@
             android:text="MapActivity"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btnDouYinActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DouYinActivity"
+            android:textAllCaps="false" />
+
 
     </LinearLayout>
 
