@@ -78,11 +78,18 @@
             android:text="startSplashActivity"
             android:textAllCaps="false" />
 
-<Button
+        <Button
             android:id="@+id/btnVLayoutActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="startVLayoutActivity"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnMapActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MapActivity"
             android:textAllCaps="false" />
 
 

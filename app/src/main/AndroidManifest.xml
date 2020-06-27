@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.TaoBaoHomeActivity"></activity>
+        <activity android:name=".ui.MapActivity"></activity>
+        <activity android:name=".ui.TaoBaoHomeActivity" />
         <activity android:name=".ui.VLayoutActivity" />
         <activity android:name=".ui.NestedLinearLayoutActivity" />
         <activity android:name=".ui.GiftActivity" />

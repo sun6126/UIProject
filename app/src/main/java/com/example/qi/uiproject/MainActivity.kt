@@ -47,12 +47,17 @@ class MainActivity : AppCompatActivity() {
         btnNestedLinearLayoutActivity.setOnClickListener {
             startActivity(Intent(MainActivity@ this, NestedLinearLayoutActivity::class.java))
         }
+
         btnSplashActivity.setOnClickListener {
             startActivity(Intent(MainActivity@ this, SplashActivity::class.java))
         }
+
         btnVLayoutActivity.setOnClickListener {
             startActivity(Intent(MainActivity@ this, VLayoutActivity::class.java))
+        }
 
+        btnMapActivity.setOnClickListener {
+            startActivity(Intent(MainActivity@ this, MapActivity::class.java))
         }
 
     }
