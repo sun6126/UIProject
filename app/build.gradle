@@ -36,8 +36,13 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation 'com.google.android.material:material:1.1.0'
-
-    implementation ('com.alibaba.android:vlayout:1.2.8@aar') {
+    // 万能适配器
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    // 阿里的VLayout
+    implementation('com.alibaba.android:vlayout:1.2.8@aar') {
         transitive = true
     }
+    // banner
+    implementation 'com.youth.banner:banner:1.4.9'
+
 }
