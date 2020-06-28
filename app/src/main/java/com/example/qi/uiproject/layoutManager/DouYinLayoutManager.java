@@ -94,7 +94,6 @@ public class DouYinLayoutManager extends LinearLayoutManager implements Recycler
                 viewPagerListener.onPageRelease(view);
             }
         }
-
     }
 
     /*

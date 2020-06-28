@@ -17,7 +17,6 @@ import com.example.qi.uiproject.bean.Point;
 /*
 * 圆球移动的动画
 * 自定义evaluator
-*
 * */
 public class MyAnimView extends View {
 

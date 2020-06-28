@@ -99,6 +99,13 @@
             android:text="DouYinActivity"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btnLoadMoreActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义加载更多Activity"
+            android:textAllCaps="false" />
+
 
     </LinearLayout>
 

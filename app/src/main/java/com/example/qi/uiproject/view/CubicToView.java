@@ -11,6 +11,9 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+/*
+* 三阶贝塞尔曲线
+* */
 public class CubicToView extends View {
     private int leftX, leftY;
     private int rightX, rightY;

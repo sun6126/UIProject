@@ -64,5 +64,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(MainActivity@ this, DouYinActivity::class.java))
         }
 
+        btnLoadMoreActivity.setOnClickListener {
+            startActivity(Intent(MainActivity@ this, LoadMoreRecyclerViewActivity::class.java))
+        }
+
     }
 }
