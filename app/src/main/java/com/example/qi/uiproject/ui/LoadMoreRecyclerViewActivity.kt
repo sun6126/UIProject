@@ -31,7 +31,7 @@ class LoadMoreRecyclerViewActivity : AppCompatActivity() {
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
                 super.onScrollStateChanged(recyclerView, newState)
                 val layoutManager = recyclerView.layoutManager as LinearLayoutManager
-                if (newState == RecyclerView.SCROLL_STATE_IDLE){ // 停止滑动时，改变状态
+                if (newState == RecyclerView.SCROLL_STATE_IDLE){ // 停止滑动时，改变adapter状态
                     //获取最后一个完全显示的itemPosition
                     val lastItemPosition: Int = layoutManager.findLastCompletelyVisibleItemPosition()
                     val itemCount: Int = layoutManager.getItemCount()
