@@ -1,7 +1,6 @@
 package com.example.qi.uiproject.material;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -24,7 +23,6 @@ public class NestedBehavior {
     /*
      * 观察者要做的事情
      * 正在滑动所做的事
-     *
      * childAt:观察者
      * */
     public void onNestedScroll(@NonNull View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed, int type, View childAt, NestedLinearLayout parent) {

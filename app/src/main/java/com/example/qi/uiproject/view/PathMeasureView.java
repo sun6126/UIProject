@@ -23,7 +23,6 @@ import com.example.qi.uiproject.R;
 
 /*
 * 根据path测量位置角度的自定义view
-*
 * */
 public class PathMeasureView extends View {
 
@@ -67,6 +66,7 @@ public class PathMeasureView extends View {
         mViewHeight = h;
     }
 
+    
     @SuppressLint("DrawAllocation")
     @Override
     protected void onDraw(Canvas canvas) {

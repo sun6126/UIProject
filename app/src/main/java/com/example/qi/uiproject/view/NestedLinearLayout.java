@@ -58,9 +58,8 @@ public class NestedLinearLayout extends LinearLayout implements NestedScrollingP
 
 
     /*
-     *  接收滚动的通知，子view一直滚动，这个方法就一直调用
+     *  接收滚动的通知，子nested系列view一直滚动，这个方法就一直调用
      * type : 发起嵌套事件的类型，分为触摸和非触摸（viewParent.TYPE_TOUCH）和非触摸（viewParent.TYPE_NON_TOUCH）
-     *
      * */
     @Override
     public void onNestedScroll(@NonNull View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed, int type) {
