@@ -37,7 +37,6 @@ public class NestedLinearLayout extends LinearLayout implements NestedScrollingP
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
-
     /*
      * 这里返回true，后续的滚动方法才会执行
      * */
@@ -55,7 +54,6 @@ public class NestedLinearLayout extends LinearLayout implements NestedScrollingP
     public void onStopNestedScroll(@NonNull View target, int type) {
 
     }
-
 
     /*
      *  接收滚动的通知，子nested系列view一直滚动，这个方法就一直调用

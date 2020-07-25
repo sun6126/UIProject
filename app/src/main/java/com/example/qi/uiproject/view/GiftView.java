@@ -47,7 +47,7 @@ public class GiftView extends RelativeLayout {
         //代码设置布局方式，底部居中
         layoutParams.addRule(CENTER_HORIZONTAL, TRUE);
         layoutParams.addRule(ALIGN_PARENT_BOTTOM, TRUE);
-        
+
         // 设置本布局的点击事件
         this.setOnClickListener(new OnClickListener() {
             @Override
@@ -61,7 +61,7 @@ public class GiftView extends RelativeLayout {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
         screenWidth = w;
-        screenHeight =h;
+        screenHeight = h;
     }
 
     public void addImageView() {
@@ -77,7 +77,7 @@ public class GiftView extends RelativeLayout {
         ObjectAnimator scaleY = ObjectAnimator.ofFloat(imageView, View.SCALE_Y, 0.2f, 1f);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.setDuration(1000);
-        animatorSet.playTogether(scaleX,scaleY);
+        animatorSet.playTogether(scaleX, scaleY);
         animatorSet.start();
     }
 
@@ -95,13 +95,12 @@ public class GiftView extends RelativeLayout {
                 imageView.setY(pointF.y);
                 // 顺便做一个渐变动画
                 float fraction = animation.getAnimatedFraction();
-                imageView.animate().alpha(1-fraction);
+                imageView.animate().alpha(1 - fraction);
             }
         });
         valueAnimator.setDuration(5000);
         return valueAnimator;
     }
-    
 
 
     public static class BezierEvaluator implements TypeEvaluator<PointF> {

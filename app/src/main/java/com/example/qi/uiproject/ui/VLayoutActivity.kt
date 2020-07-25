@@ -64,7 +64,7 @@ class VLayoutActivity : AppCompatActivity() {
         linearLayoutAdapter = VLayoutAdapter(dataList, this, 20, linearLayoutHelper);
 
         adapterList.add(linearLayoutAdapter as DelegateAdapter.Adapter<RecyclerView.ViewHolder>)
-        delegateAdapter.addAdapters(adapterList)
+        delegateAdapter.addAdapters(adapterList) // 可以添加多个布局
 
         // 2、定格布局 --------------------------------------------》
         val stickyLayoutHelper = StickyLayoutHelper()

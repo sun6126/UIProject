@@ -90,7 +90,5 @@ public class WatchView extends View {
         canvas.translate(width/2,height/2);
         canvas.drawLine(0,0,60,60,paintHour);
         canvas.drawLine(0,0,40,120,paintMinute);
-
-
     }
 }

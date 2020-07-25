@@ -45,6 +45,7 @@ public class CubicToView extends View {
     }
 
     //测量大小完成以后回调
+    // 在layout中调用的方法，在onlayout之前执行
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);

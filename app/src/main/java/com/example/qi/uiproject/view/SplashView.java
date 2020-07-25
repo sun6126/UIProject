@@ -235,6 +235,7 @@ public class SplashView extends View {
             mAnimator.start();
         }
 
+
         @Override
         public void drawState(Canvas canvas) {
             drawBackground(canvas);
